@@ -15,7 +15,7 @@ void push_cmd(stack_t **stack, unsigned int line_number)
 				(global_variables->vect_tokenized_opscode[1])))
 	{
 		free_global_var();
-		dprintf(2, "L%d: usage: push integer\n", global_variables->line_num);
+		dprintf(2, "L%d: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);
 	}
 

@@ -10,7 +10,7 @@
  * Return: None
  */
 
-void **tokenize_opscode_cmd(char *buff_str, char *delimeter)
+void tokenize_opscode_cmd(char *buff_str, char *delimeter)
 {
 	int idx, num_tokens;
 	char *tokens1, *tokens2;

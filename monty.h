@@ -1,6 +1,7 @@
 #ifndef MONTY_H
 #define MONTY_H
 
+#define _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -79,7 +80,7 @@ void close_file_buffer(void);
 void free_top_stack(void);
 void free_global_var(void);
 void free_monty_stack(stack_t *top_stack);
-void **tokenize_opscode_cmd(char *buff_str, char *delimeter);
+void tokenize_opscode_cmd(char *buff_str, char *delimeter);
 void push_cmd(stack_t **stack, unsigned int line_number);
 void pall_cmd(stack_t **stack, unsigned int line_number);
 void pint_cmd(stack_t **stack, unsigned int line_number);
