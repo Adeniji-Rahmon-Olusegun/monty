@@ -30,4 +30,6 @@ void add_cmd(stack_t **stack, unsigned int line_number)
 	global_variables->top_stack->next->n = sum_top_two;
 
 	pop_cmd(stack, line_number);
+
+	global_variables->current_stk_len--;
 }
