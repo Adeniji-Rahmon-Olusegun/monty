@@ -14,6 +14,7 @@ void opscode_command_func(void)
 	instruction_t ops_cd[] = {
 		{"push", &push_cmd},
 		{"pall", &pall_cmd},
+		{"pint", &pint_cmd},
 		{NULL, NULL}
 	};
 
