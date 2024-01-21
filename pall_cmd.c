@@ -12,9 +12,8 @@
 
 void pall_cmd(stack_t **stack, unsigned int line_number)
 {
-	
 	stack_t *stk_tem_var;
-	
+
 	if (global_variables->top_stack == NULL)
 	{
 		return;

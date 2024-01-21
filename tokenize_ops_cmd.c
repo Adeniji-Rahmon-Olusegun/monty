@@ -45,7 +45,7 @@ void tokenize_opscode_cmd(char *buff_str, char *delimeter)
 	string_vec[idx] = NULL;
 	global_variables->num_tokens_opscode = num_tokens;
 	global_variables->vect_tokenized_opscode = string_vec;
-	
+
 	free(first_dup);
 	free(second_dup);
 }

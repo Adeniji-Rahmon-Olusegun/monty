@@ -46,6 +46,13 @@ typedef struct instruction_s
  *
  * @lineptr: line pointer
  * @buffer: buffer for argument
+ * @line_num: line number for opcode
+ * @stack: 1 if stack Data structure
+ * @num_tokens_opscode: number of tokens
+ * @urrent_stk_len: stack length
+ * @top_stack: top of the stack
+ * @vect_tokenized_opscode: array containing the tokens
+ * @stk_commands: opcode commands
  *
  * Description: global varibles for general usage by
  * functions

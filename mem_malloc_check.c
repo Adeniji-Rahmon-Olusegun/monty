@@ -3,8 +3,6 @@
 /**
  * mem_alloc_fail - checks if memory allocation failed
  *
- * dyn_ptr - pointer to dynamically allocated memory
- *
  * Return: None.
  */
 
@@ -18,10 +16,10 @@ void mem_alloc_fail(void)
 
 
 /**
- * getting_arg_fail - checks if the argument to 
+ * getting_arg_fail - checks if the argument to
  * be parsed failed
  *
- * file - file containing the opcodes command
+ * @file: file containing the opcodes command
  *
  * Return: None.
  */

@@ -8,6 +8,7 @@
 
 void initialise_variables(void)
 {
+	global_variables = NULL;
 	global_variables = (globalvar_t *)malloc(sizeof(globalvar_t));
 
 	if (global_variables == NULL)

@@ -8,7 +8,7 @@ globalvar_t *global_variables = NULL;
  * @argc: argument count
  * @argv: argument vector
  *
- * Return - 0 if sucess
+ * Return: 0 if sucess
  */
 
 int main(int argc, char *argv[])
@@ -32,5 +32,5 @@ int main(int argc, char *argv[])
 	close_file_buffer();
 	free_global_var();
 
-	return (0);	
+	return (0);
 }

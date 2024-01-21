@@ -30,8 +30,8 @@ void push_cmd(stack_t **stack, unsigned int line_number)
 
 	if (global_variables->top_stack == NULL)
 		global_variables->top_stack = *stack;
-	else if(global_variables->stack)
-	{	
+	else if (global_variables->stack)
+	{
 		(*stack)->next = global_variables->top_stack;
 		global_variables->top_stack->prev = *stack;
 		global_variables->top_stack = *stack;
@@ -44,6 +44,6 @@ void push_cmd(stack_t **stack, unsigned int line_number)
 			stk_temp_var = stk_temp_var->next;
 		stk_temp_var->next = *stack;
 		(*stack)->prev = stk_temp_var;
-	}	
+	}
 	global_variables->current_stk_len++;
 }

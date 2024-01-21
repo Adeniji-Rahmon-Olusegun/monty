@@ -3,7 +3,7 @@
 /**
  * free_monty_stack - frees all nodes in a stack
  *
- * @top_stack - top of the stack
+ * @top_stack: top of the stack
  *
  * Return: None
  */
