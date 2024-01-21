@@ -18,6 +18,7 @@ void opscode_command_func(void)
 		{"pop", &pop_cmd},
 		{"swap", &swap_cmd},
 		{"add", &add_cmd},
+		{"sub", &sub_cmd},
 		{NULL, NULL}
 	};
 

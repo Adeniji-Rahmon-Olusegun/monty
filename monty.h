@@ -94,5 +94,6 @@ void pint_cmd(stack_t **stack, unsigned int line_number);
 void pop_cmd(stack_t **stack, unsigned int line_number);
 void swap_cmd(stack_t **stack, unsigned int line_number);
 void add_cmd(stack_t **stack, unsigned int line_number);
+void sub_cmd(stack_t **stack, unsigned int line_number);
 void nop_cmd(stack_t **stack, unsigned int line_number);
 #endif
