@@ -16,6 +16,7 @@ void opscode_command_func(void)
 		{"pall", &pall_cmd},
 		{"pint", &pint_cmd},
 		{"pop", &pop_cmd},
+		{"swap", &swap_cmd},
 		{NULL, NULL}
 	};
 
