@@ -22,12 +22,10 @@ void sub_cmd(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 
-	sub_top_two = 0;
-
 	sub_top_two =  global_variables->top_stack->next->n -
 		global_variables->top_stack->n;
 
-	global_variables->top_stack->next->n = (int) sub_top_two;
+	global_variables->top_stack->next->n = sub_top_two;
 
 	pop_cmd(stack, line_number);
 

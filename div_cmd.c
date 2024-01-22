@@ -24,12 +24,10 @@ void div_cmd(stack_t **stack, unsigned int line_number)
 
 	if (global_variables->top_stack->n == 0)
 	{
-		dprintf(2, "L%d: division by zero", line_number);
+		dprintf(2, "L%d: division by zero\n", line_number);
 		free_global_var();
 		exit(EXIT_FAILURE);
 	}
-
-	div_top_two = 0;
 
 	div_top_two = global_variables->top_stack->next->n /
 		global_variables->top_stack->n;
