@@ -19,6 +19,7 @@ void opscode_command_func(void)
 		{"swap", &swap_cmd},
 		{"add", &add_cmd},
 		{"sub", &sub_cmd},
+		{"div", &div_cmd},
 		{NULL, NULL}
 	};
 
