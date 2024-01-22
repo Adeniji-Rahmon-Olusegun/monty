@@ -21,6 +21,7 @@ void opscode_command_func(void)
 		{"sub", &sub_cmd},
 		{"div", &div_cmd},
 		{"mul", &mul_cmd},
+		{"mod", &mod_cmd},
 		{NULL, NULL}
 	};
 

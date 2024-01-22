@@ -29,5 +29,5 @@ void sub_cmd(stack_t **stack, unsigned int line_number)
 
 	pop_cmd(stack, line_number);
 
-	global_variables->current_stk_len -= 1;;
+	global_variables->current_stk_len -= 1;
 }
