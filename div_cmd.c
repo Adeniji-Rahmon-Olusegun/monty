@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * div_cmd - adds the top two elements of the stack
+ * div_cmd - divides the top two elements of the stack
  *
  * @stack: pointer to the new_node
  * @line_number: opcode line number

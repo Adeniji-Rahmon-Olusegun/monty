@@ -20,6 +20,7 @@ void opscode_command_func(void)
 		{"add", &add_cmd},
 		{"sub", &sub_cmd},
 		{"div", &div_cmd},
+		{"mul", &mul_cmd}
 		{NULL, NULL}
 	};
 
